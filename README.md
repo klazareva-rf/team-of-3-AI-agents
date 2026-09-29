@@ -1,4 +1,4 @@
-AI Content Factory --- Multi-Agent Content Workflow
+AI Content Factory - Multi-Agent Content Workflow
 AI Content Factory is a prototype system designed to automate selected
 stages of marketing content production using several specialized AI
 agents.
@@ -8,6 +8,7 @@ draft.
 Instead of relying on one universal AI prompt, the workflow divides the
 process between specialized agents, with each agent responsible for a
 specific stage of content production.
+
 Why I Built This
 I work in digital marketing and regularly participate in the full
 content production cycle:
@@ -24,6 +25,7 @@ workflow.
 The long-term goal is to build an AI Content Factory capable of
 supporting high-volume content production while keeping humans in
 control of strategy, quality, and final output.
+
 Business Problem
 Marketing teams need to produce increasing amounts of content across
 multiple channels while maintaining quality, speed, and consistent
@@ -40,6 +42,7 @@ AI can automate parts of these processes.
 Instead of using one large prompt to solve every task, this project uses
 several specialized AI agents to handle different stages of the
 workflow.
+
 How It Works
 The project is built around a team of three specialized AI agents.
 Agent 1 --- Research Agent
@@ -55,6 +58,7 @@ Agent 3 --- Content Creator
 Receives the research and content strategy.
 Based on these inputs, it produces a content draft for further human
 review and refinement.
+
 Workflow
 Marketing Brief
 ↓
@@ -71,6 +75,7 @@ Human Review
 Final Version
 Humans remain part of the process and retain control over strategy,
 information accuracy, quality, and final publication.
+
 My Role
 I am developing this project from a marketing, business, and AI workflow
 perspective.
@@ -86,6 +91,7 @@ My work on the project includes:
 For me, this project is not only an AI experiment but also a practical
 way to explore how AI agents and automation can be applied to real
 marketing processes.
+
 Technologies and Approaches
 The project uses and explores:
 - Large Language Models (LLMs);
@@ -96,6 +102,7 @@ The project uses and explores:
 - AI-assisted Content Creation.
 API integrations and automation tools are planned for the next stage of
 development.
+
 Potential Business Applications
 The AI Content Factory architecture can be adapted to different
 marketing tasks:
@@ -108,6 +115,7 @@ marketing tasks:
 - content creation for different audience segments;
 - scaling content production;
 - automation of selected marketing team workflows.
+
 Why Multiple AI Agents?
 When AI is used in a traditional way, a single prompt is often expected
 to solve several different tasks at once:
@@ -117,12 +125,14 @@ Each agent receives its own role, instructions, and specific task.
 This approach makes it possible to experiment with a more manageable
 content production architecture and gradually automate individual stages
 of the process.
+
 Project Status
 Current stage: prototype / work in progress.
 The current version demonstrates a multi-agent approach to content
 production using several specialized AI agents.
 The main goal at this stage is to test agent collaboration and identify
 which parts of the marketing workflow are most suitable for automation.
+
 Next Development Steps
 Planned development includes:
 - automated marketing brief intake;
@@ -153,6 +163,7 @@ Analytics
 Optimization
 ↓
 New Content Production Cycle
+
 Long-Term Vision
 The goal of the project is to explore how AI can be used not simply to
 generate individual pieces of content, but as part of a complete
