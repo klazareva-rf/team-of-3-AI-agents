@@ -1,0 +1,80 @@
+{
+  "topic_id": "TOP-001",
+
+  "topic": {
+    "title": "Гражданское машиностроение против ОПК: что это значит для закупки инструмента",
+    "audience": [
+      "владелец цеха",
+      "руководитель цеха",
+      "технический директор"
+    ],
+    "pain": "Снижение спроса в гражданском секторе при одновременном росте стоимости инструмента",
+    "content_type": "analytical_post",
+    "channels": [
+      "dzen",
+      "ritm"
+    ]
+  },
+
+  "research": {
+    "claims": [
+      {
+        "id": "CLAIM-001",
+        "claim": "Производство легковых автомобилей в 2025 году сократилось на 25% по сравнению с 2023 годом",
+        "source_type": "forum",
+        "source": "meztool.ru",
+        "verification_status": "unverified"
+      },
+      {
+        "id": "CLAIM-002",
+        "claim": "Производство стали в 2025 году снизилось",
+        "source_type": "forum",
+        "source": "meztool.ru",
+        "verification_status": "unverified"
+      }
+    ]
+  },
+
+  "analysis": {
+    "verified_facts": [
+      {
+        "id": "FACT-001",
+        "claim": "Производство легковых автомобилей в 2025 году составило 673 тыс. единиц",
+        "status": "verified",
+        "allowed_for_writer": true
+      },
+      {
+        "id": "FACT-002",
+        "claim": "Производство стали в России в 2025 году снизилось на 4,6%",
+        "status": "verified",
+        "allowed_for_writer": true
+      }
+    ],
+
+    "rejected_facts": [
+      {
+        "id": "CLAIM-001",
+        "claim": "Производство легковых автомобилей в 2025 году сократилось на 25% по сравнению с 2023 годом",
+        "status": "rejected",
+        "allowed_for_writer": false,
+        "reason": "Утверждение противоречит проверенным статистическим данным"
+      }
+    ]
+  },
+
+  "content": {
+    "master_draft": "",
+    "dzen": "",
+    "vk": "",
+    "telegram": ""
+  },
+
+  "quality": {
+    "fact_check_passed": false,
+    "style_check_passed": false
+  },
+
+  "workflow": {
+    "status": "analyzed"
+  }
+}
