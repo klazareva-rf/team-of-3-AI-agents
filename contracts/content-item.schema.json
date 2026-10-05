@@ -1,0 +1,36 @@
+{
+  "topic_id": "TOP-001",
+
+  "topic": {
+    "title": "",
+    "audience": [],
+    "pain": "",
+    "content_type": "",
+    "channels": []
+  },
+
+  "research": {
+    "claims": []
+  },
+
+  "analysis": {
+    "verified_facts": [],
+    "rejected_facts": []
+  },
+
+  "content": {
+    "master_draft": "",
+    "dzen": "",
+    "vk": "",
+    "telegram": ""
+  },
+
+  "quality": {
+    "fact_check_passed": false,
+    "style_check_passed": false
+  },
+
+  "workflow": {
+    "status": "new"
+  }
+}
